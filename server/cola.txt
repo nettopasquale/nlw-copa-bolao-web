@@ -1,0 +1,46 @@
+# TYPESCRIPT
+// npm i typescript -D
+// npx tsc --init
+// npm i tsx
+
+// "dev" : "tsx watch src/server.ts";
+
+# FASTIFY
+// npm i fastify -D ->pq SÓ em desenvolvimento é interessante
+
+// npm i @fastify/cors
+
+# PRISMA
+// npm i prisma -D -> pq SÓ em desenvolvimento é interessante
+// npm i @prisma/client -> conectar com o banco de dados 
+// npx prisma init --datasource-provider SQLite (ou outro qualquer)
+
+// npx migrate dev -> versionamento de banco de dados
+
+// npx prisma studio -> chama o prisma studio no navegador
+
+// npm i -D prisma-erd-generator @mermaid-js/mermaid-cli -D -> duas libs pra usar diagramas
+
+// npx prisma generate -> gera um novo prisma scheme
+
+
+// npx prisma db seed -> APENAS quando temos um seed configurado
+
+# SEED
+
+// O que é um seed? Um arquivo com dados fictícios para popular um banco de dados.
+
+
+# BANCO DE DADOS
+
+// sempre que formos criar dados que envolvem data, USAR timestamp
+// DICA: new DATE().toISOString() -> função q retorna timestamp atual;
+
+# ZOD
+
+// npm i zod -> lib ZOD que ajuda muito em validação de dados, porque faz essas validações por schemas
+    Mas ele também ajuda muito com tipagem e com binding de variáveis
+
+# SHORT UNIQUE ID
+
+// npm i short-unique-id -> lib que cria Ids únicos e curtos, útil com no máx 100 ids por vez;

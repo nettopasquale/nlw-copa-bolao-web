@@ -1,0 +1,34 @@
+# NEXT.js
+// npx create-next-app@latest -> cria um projeto básico com next
+//  --typescript -> adiciona config de typescript
+//  --use-npm -> instala com npm pois yarn é o default
+
+// Next é uma framework do React; Ele não o substitui, mas é bem útil porque:
+ - Permite renderizar o projeto no lado do servidor
+ - Faz o cacheamento do site no server side com o Node.js
+ - Permite os crawlers do google entenderem todo o projeto mesmo sem o javascript
+ - SEO bem mais efetivo
+ - Build mais rápida, podemos pré renderizar rotas específicas
+
+
+// Next tem uma estrutura própria de roteamento com a pasta "pages"
+// essa pasta comporta nossas páginas como rotas '/página'
+// inclusive podemos fazer nesting de páginas, criando subpastas com arquivo [./[paginaId].js]
+
+// Next tem propriedades específicas como o getServerSideProps e o getStaticProps
+
+// NExt tem um componente próprio para imagens, o <Image/>, que ele mesmo tem suas
+ otimizações
+
+
+# TAILWINDCSS
+
+// npm install -D tailwindcss postcss autoprefixer -> Instala TailwindCSS, PostCSS e Autoprefixer
+// npx tailwindcss init -p -> Cria os arquivos de config
+
+// postcss e tailwindcss possuem extensões de suporte no VSC
+
+
+# Axios
+
+// npm i axios

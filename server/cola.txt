@@ -44,3 +44,8 @@
 # SHORT UNIQUE ID
 
 // npm i short-unique-id -> lib que cria Ids únicos e curtos, útil com no máx 100 ids por vez;
+
+
+# JWT
+
+// npm i @fastify/jwt -> Instalar o JWT com o módulo para o fastify;
